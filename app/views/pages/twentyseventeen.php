@@ -5,18 +5,18 @@
   
   <div class="imageID">
   <?php include(APPROOT . "/views/includes/menu.php"); ?>
+ 
   <?php 
-    foreach($data["info"] as $info) { ?>
+    foreach($data["mypic"] as $mypic) { ?>
 
         
-<img class="icon" src="<?php echo URLROOT . "images/" . $info["IMAGE"] . ".png" ?>"alt="Card image cap">
+<img class="icon" src="<?php echo URLROOT . "images/" . $mypic["IMAGE"] . ".png" ?>"alt="Card image cap">
 <?php } ?>
-      
 <?php 
-    foreach($data["info"] as $info) { ?>
+    foreach($data["pic"] as $pic) { ?>
 
         
-<img class="social" src="<?php echo URLROOT . "images/" . $info["Social"] . ".png" ?>"alt="Social">
+<img class="social" src="<?php echo URLROOT . "images/" . $pic["IMAGE"] . ".png" ?>"alt="Social">
 <?php } ?>  
  
 
@@ -24,13 +24,13 @@
     <div class="content">
     <?php 
 
-    foreach($data["info"] as $info) {
+    foreach($data["twentyseventeen"] as $twentyseventeen) {
         ?>
 <div class= "classscontent">
             <div class="classgrid">
-                <h1><?php echo $info["Class"]; ?> </h1>
+                <h1><?php echo $twentyseventeen["Class"]; ?> </h1>
                 
-               <p> <?php echo $info["CAbout"]; ?> </p>
+               <p> <?php echo $twentyseventeen["About"]; ?> </p>
             </div>
     </div>
             
