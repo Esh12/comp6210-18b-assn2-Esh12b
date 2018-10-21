@@ -1,0 +1,645 @@
+.hopethisworks{
+    width: 100%;
+    background-color: #14DEB0;
+    height: auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+	color: white;
+	width: 100%;
+	
+}
+
+li {
+    float: right;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.icon{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+  
+    
+    
+}
+.menu{
+    height: 100%;
+}
+.imageID{
+    background-color: #5A5A5A;
+    width: 100%;
+    display: block;
+    height: auto;
+    padding: 0;
+	margin: 0;
+}
+
+
+.test {
+    
+
+    
+  margin-left: 40%;
+     
+    width: 4%;
+}
+.social{
+    
+    width: 4%;
+}
+.foot{
+    width: 100%;
+    
+    background: #14DEB0;
+    
+   margin-top: 20%;
+   
+   height:auto;   
+   
+   
+
+}
+.content{
+    height: auto;
+    position: absolute;
+  
+    width: 100%;
+    
+}
+.text{
+    float: left;
+    width: 70%;
+}
+
+.sign{
+    width: 30%;
+    float: right;
+    background: red;
+    height: 59px;
+}
+
+
+
+.twitter
+{
+	height: 10px;
+	width: 20%;
+}
+.widget-iframe{
+	display: block;
+float: right;
+}
+.content-background-1{
+/**/
+background:url("../csharp.jpeg");
+height: 400px;
+width: 100%;
+}
+.Classname{
+    color: white;
+    font-size: 32px;
+    margin-left: 50%;
+    margin-right: 50%;
+    margin-top:  8%;
+}
+
+#map {
+width: 50%;
+height: 300px;
+    
+
+  }
+  .wiki{
+
+   max-width: 40px;
+   max-height: 30px;
+  }
+
+.wiki-content{
+    font-family: 'Indie Flower', cursive;
+    width:100%;
+    margin-top: 80px;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #14DEB0;
+    
+    
+   
+}
+
+.searchForm-input{
+    -border-radius: 50px;
+-moz-border-radius: 50px;
+border-radius: 50px;
+width: 80%;
+
+}
+  .grid-container{
+    
+    
+    display: block;
+    
+  }
+  .resultItem{
+      
+      background:lightgray;
+      
+  }
+  .resultItem-snippet{
+      color: blue;
+  }
+  .icon-searchIcon {
+      margin-top: .50%;
+      margin-bottom: .5%;
+    -border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    background-color:#d35400;
+    height: 20px;;
+    border: none;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+  }
+  
+  
+  .icon-searchIcon span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .icon-searchIcon span:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .icon-searchIcon:hover span {
+    padding-right: 25px;
+  }
+  
+  .icon-searchIcon:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  @media only screen and (min-width: 213px) and (max-width: 599px) {
+    .icon{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 25%;
+        -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+        filter: grayscale(100%);
+      
+        
+        
+    }
+    .test{
+        margin-left: 50px;
+        float: left;
+        width: 11%; 
+    }
+    .imageID{
+        height: 230px;
+    }
+    .social{
+    
+        width: 11%;
+    }
+.menu2{
+    display: none;
+}
+a
+{
+  text-decoration: none;
+  color: #232323;
+  
+  transition: color 0.3s ease;
+}
+
+a:hover
+{
+  color: tomato;
+}
+
+#menuToggle
+{
+  display: block;
+  position: relative;
+  top: 50px;
+  left: 50px;
+  
+  z-index: 1;
+  
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+#menuToggle input
+{
+  display: block;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  top: -7px;
+  left: -5px;
+  
+  cursor: pointer;
+  
+  opacity: 0; /* hide this */
+  z-index: 2; /* and place it over the hamburger */
+  
+  -webkit-touch-callout: none;
+}
+
+/*
+ * Just a quick hamburger
+ */
+#menuToggle span
+{
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  
+  background: #cdcdcd;
+  border-radius: 3px;
+  
+  z-index: 1;
+  
+  transform-origin: 4px 0px;
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
+}
+
+#menuToggle span:first-child
+{
+  transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-last-child(2)
+{
+  transform-origin: 0% 100%;
+}
+
+/* 
+ * Transform all the slices of hamburger
+ * into a crossmark.
+ */
+#menuToggle input:checked ~ span
+{
+  opacity: 1;
+  transform: rotate(45deg) translate(-2px, -1px);
+  background: #232323;
+}
+
+/*
+ * But let's hide the middle one.
+ */
+#menuToggle input:checked ~ span:nth-last-child(3)
+{
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+/*
+ * Ohyeah and the last one should go the other direction
+ */
+#menuToggle input:checked ~ span:nth-last-child(2)
+{
+  transform: rotate(-45deg) translate(0, -1px);
+}
+
+/*
+ * Make this absolute positioned
+ * at the top left of the screen
+ */
+#menu
+{
+  position: absolute;
+  width: 300px;
+  margin: -100px 0 0 -50px;
+  padding: 50px;
+  padding-top: 125px;
+  height: 500px;
+  
+  background: #ededed;
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+  /* to stop flickering of text in safari */
+  
+  transform-origin: 0% 0%;
+  transform: translate(-100%, 0);
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
+#menu li
+{
+  padding: 25px;
+  font-size: 22px;
+}
+
+/*
+ * And let's slide it in from the left
+ */
+#menuToggle input:checked ~ ul
+{
+  transform: none;
+}
+.foot{
+    width: 100%;
+    
+    background: #14DEB0;
+    
+   margin-top: -30%;
+   
+   height:auto; 
+}
+.content{
+    width: 100%;
+}
+.text{
+    width: 100%;
+}
+.sign{
+    width: 100%;
+   
+    background: red;
+    height: 59px;
+}
+
+  }
+  @media only screen and (min-width: 600px) and (max-width: 768px) {
+    .menu2{
+        display: none;
+    }
+    .icon{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 25%;
+        -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+        filter: grayscale(100%);
+      
+        
+        
+    }
+    .test{
+        margin-left: 80px;
+        float: left;
+        width: 11%; 
+    }
+    .imageID{
+        height: 250px;
+    }
+    .social{
+    
+        width: 11%;
+    }
+a
+{
+  text-decoration: none;
+  color: #232323;
+  
+  transition: color 0.3s ease;
+}
+
+a:hover
+{
+  color: tomato;
+}
+
+#menuToggle
+{
+  display: block;
+  position: relative;
+  top: 50px;
+  left: 50px;
+  
+  z-index: 1;
+  
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+#menuToggle input
+{
+  display: block;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  top: -7px;
+  left: -5px;
+  
+  cursor: pointer;
+  
+  opacity: 0; /* hide this */
+  z-index: 2; /* and place it over the hamburger */
+  
+  -webkit-touch-callout: none;
+}
+
+/*
+ * Just a quick hamburger
+ */
+#menuToggle span
+{
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  
+  background: #cdcdcd;
+  border-radius: 3px;
+  
+  z-index: 1;
+  
+  transform-origin: 4px 0px;
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
+}
+
+#menuToggle span:first-child
+{
+  transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-last-child(2)
+{
+  transform-origin: 0% 100%;
+}
+
+/* 
+ * Transform all the slices of hamburger
+ * into a crossmark.
+ */
+#menuToggle input:checked ~ span
+{
+  opacity: 1;
+  transform: rotate(45deg) translate(-2px, -1px);
+  background: #232323;
+}
+
+/*
+ * But let's hide the middle one.
+ */
+#menuToggle input:checked ~ span:nth-last-child(3)
+{
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+/*
+ * Ohyeah and the last one should go the other direction
+ */
+#menuToggle input:checked ~ span:nth-last-child(2)
+{
+  transform: rotate(-45deg) translate(0, -1px);
+}
+
+/*
+ * Make this absolute positioned
+ * at the top left of the screen
+ */
+#menu
+{
+  position: absolute;
+  width: 300px;
+  margin: -100px 0 0 -50px;
+  padding: 50px;
+  padding-top: 125px;
+  
+  background: #ededed;
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+  /* to stop flickering of text in safari */
+  
+  transform-origin: 0% 0%;
+  transform: translate(-100%, 0);
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
+#menu li
+{
+  padding: 10px 0;
+  font-size: 22px;
+}
+
+/*
+ * And let's slide it in from the left
+ */
+#menuToggle input:checked ~ ul
+{
+  transform: none;
+}
+.foot{
+    margin-top: 68%;
+}
+.text{
+    width: 100%;
+}
+
+.sign{
+    width: 100%;
+   
+    background: red;
+    height: 59px;
+}
+
+    } 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+ 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 800px){
+    
+}
+@media only screen and (min-width: 780px) and (max-width: 991px){
+    .hopethisworks{
+        display: none;    
+    }
+    .foot{
+        margin-top: 40%;
+    }
+    
+        
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width:1999) {
+    .hopethisworks{
+        display: none;    
+    }
+} 
+@media only screen and (min-width: 1024px){
+    .hopethisworks{
+        display: none;    
+    }  
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .hopethisworks{
+        display: none;    
+    }
+}
