@@ -18,6 +18,8 @@ About VARCHAR(50),
 Reason VARCHAR(255),
 IMAGE VARCHAR(25),
 Social VARCHAR(25),
+ Class VARCHAR(60),
+    CAbout VARCHAR(255),
 PRIMARY KEY (ID)
 
 ) AUTO_INCREMENT = 1;
@@ -31,6 +33,10 @@ INSERT INTO tbl_info(Social) VALUES ('md_5a9797d083160');
 INSERT INTO tbl_info(Social) VALUES ('instagram');
 INSERT INTO tbl_info(Social) VALUES ('bitbucket-512');
 INSERT INTO tbl_info(Social) VALUES ('Octocat');
+iNSERT INTO tbl_info(Class, CAbout) VALUE('COMP.5201	Information Technology Operations', 'In this class we learnt to put computers together and learnt a bit about networking');
+iNSERT INTO tbl_info(Class, CAbout) VALUE('COMP.5202	Fundamentals of Programming and Problem Solving', 'We Learnt how to  draw flow diagrams and/or pseudo code we also learnt about classes');
+iNSERT INTO tbl_info(Class, CAbout) VALUE('COMP.5203	Professional Practice', 'We learnt about legal and ethical behavuiors in a work place');
+iNSERT INTO tbl_info(Class, CAbout) VALUE('COMP.5204	Enterprise',  'We learnt about Develop life cycle and bussines concepts');
 
 SELECT * FROM tbl_info;
 

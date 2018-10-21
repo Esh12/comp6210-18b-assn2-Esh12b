@@ -22,4 +22,16 @@
         $this->view('pages/index', $data);
        
       }
+      public function twentyseventeen() {
+        
+        $data = [
+
+          'info' => $this->info->getAllPosts(),
+ 
+       ];
+      
+        
+         $this->view('pages/twentyseventeen', $data);
+        
+       }
     }

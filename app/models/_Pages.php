@@ -8,7 +8,7 @@ Class _Pages {
         $this->db->query("SELECT * FROM tbl_info");
      
         return $this->db->resultSet();
-
+        
 }
 
 }

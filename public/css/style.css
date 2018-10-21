@@ -611,6 +611,8 @@ a:hover
  
 
 /* Medium devices (landscape tablets, 768px and up) */
+
+
 @media only screen and (max-width: 800px){
     
 }
@@ -642,4 +644,20 @@ a:hover
     .hopethisworks{
         display: none;    
     }
+ 
 }
+
+.classsconten {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #2196F3;
+    padding: 10px;;
+  }
+  .classgrid {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 8px;
+    font-size: 28px;
+    text-align: center;
+  }
+ 

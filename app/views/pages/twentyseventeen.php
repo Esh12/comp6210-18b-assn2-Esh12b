@@ -22,29 +22,24 @@
 
     </div>
     <div class="content">
+    <?php 
 
-       <div class="text">
-       <?php 
     foreach($data["info"] as $info) {
         ?>
-
-            <div class="col-sm-12">
-                <h1><?php echo $info["FNAME"]; ?>
-                <?php echo $info["LNAME"]; ?> </h1> 
+<div class= "classscontent">
+            <div class="classgrid">
+                <h1><?php echo $info["Class"]; ?> </h1>
                 
-                 <p> <b> <i> <?php echo $info["Dname"]; ?>  </b> </i> <?php echo $info["DOB"]; ?> </p>
-                <p> <b> <i> <?php echo $info["Pname"]; ?> </b> </i><?php echo $info["PHONE"]; ?> </p>
-                <p> <b> <i> <?php echo $info["Ename"]; ?> </b> </i><?php echo $info["EMAIL"]; ?> </p>
-              
-               <p> <b> <?php echo $info["About"]; ?> </p> </b>
-               <p> <?php echo $info["Reason"]; ?> </p>
+               <p> <?php echo $info["CAbout"]; ?> </p>
             </div>
-            
+    </div>
             
 
         <?php
     }
 ?>
+       <div class="text">
+      
 
 </div>
 
