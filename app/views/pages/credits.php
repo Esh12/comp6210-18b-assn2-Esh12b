@@ -4,7 +4,7 @@
   <!-- Code plain HTML here - use PHP when wanting to display data -->
   
   <div class="imageID">
-  <?php include(APPROOT . "/views/includes/menu.php"); ?>
+  <?php include(APPROOT . "/views/includes/menu3.php"); ?>
   
   <?php 
     foreach($data["mypic"] as $mypic) { ?>

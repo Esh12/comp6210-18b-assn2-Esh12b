@@ -11,10 +11,10 @@
     
  
     <ul id="menu">
-    <a href="../classes/index.php"><li>Home</li></a>
-      <a href="../classes/classone"><li>CLASS ONE</li></a>
+    <a href="../forms/index.php"><li>Home</li></a>
+      <a href="../forms/email"><li>Contact me</li></a>
       
-      <a href="../classes/classtwo"><li>CLASS TWO</li></a>
+      <a href="../forms/feedback"><li>feedbsck</li></a>
       
     </ul>
   </div>
@@ -23,12 +23,12 @@
         <ul class="menu2">
 
           
-            <li><a href="../classes/classtwo.php">Class two</a></li>
-            <li><a href="../classes/classone.php">CLASS ONE</a></li>
+            <li><a href="../forms/classtwo.php">Class two</a></li>
+            <li><a href="../forms/classone.php">CLASS ONE</a></li>
          
                
                 
-                <li><a href="../classes/index.php">Home</a></li>
+                <li><a href="../forms/index.php">Home</a></li>
               
       
           </ul>

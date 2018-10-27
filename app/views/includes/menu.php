@@ -11,11 +11,11 @@
     
  
     <ul id="menu">
-      <a href="index.php"><li>Home</li></a>
-      <a href="content.php"><li>Content</li></a>
+      <a href="../classes/index.php"><li>Home</li></a>
+      <a href="../classes/classone"><li>CLASS ONE</li></a>
       
-      <a href="wikisearch.php"><li>Wikipedia</li></a>
-      <a href="feedback.php"><li>feedback</li></a>
+      <a href="../classes/classtwo"><li>CLASS TWO</li></a>
+    
       
     </ul>
   </div>
@@ -23,17 +23,12 @@
 </div>
         <ul class="menu2">
 
-            <li><a href="feedback.php">feedback</a></li>
-            <li><a href="Wikisearch.php">wikipedis</a></li>
-            <li class="dropdown">
-              <a href="javascript:void(0)" class="dropbtn">2018</a>
-              <div class="dropdown-content">
-                <a href="content.php"> Content</a>
-                <a href="#">Level 6A</a>
-              </div>
-                <li><a href="content.php">2017</a></li>
+            <li><a href="../classes/classtwo.php">Class two</a></li>
+            <li><a href="../classes/classone.php">CLASS ONE</a></li>
+         
+               
                 
-                <li><a href="index.php">Home</a></li>
+                <li><a href="../classes/index.php">Home</a></li>
               
       
           </ul>

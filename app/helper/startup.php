@@ -12,5 +12,7 @@
     define ("DBUSER", "user");
     define ("DBPASS", "user1234");
     define ("DBNAME", "containerdb");
+    define ("GUSER", "10010463@g.toiohomai.ac.nz");
+    define ("GPASS", "littlerockhittingearth");
 
 ?>
